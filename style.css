@@ -1,0 +1,36 @@
+:root {
+  /* ### Neutral */
+
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+body {
+  max-width: 1440px;
+}
+.para {
+  font-size: 18px;
+  padding: 0 16px;
+}
+
+@media (width > 768px) {
+  header {
+    margin: 0 180px;
+  }
+  .para {
+    padding-left: 0;
+    padding-right: 200px;
+  }
+  .hala {
+    padding-right: px;
+  }
+  .zeh {
+    box-shadow: 2px 2px 5px rgb(113, 113, 113);
+  }
+}
+@media (max-width: 768px) {
+  .sponsors img {
+    width: 60px;
+  }
+}
